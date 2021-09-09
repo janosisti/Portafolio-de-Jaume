@@ -1,0 +1,37 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 14px;
+}
+
+.description-text {
+  font: var(--headline5);
+  text-align: center;
+  padding-block-end: 24;
+}
+.description-text span:nth-of-type(1) {
+  font: var(--description);
+  display: block;
+  text-align: center;
+  padding-block-end: 24px;
+  padding-block-start: 40px;
+}
+.div .description-img {
+  display: flex;
+}
+.description-img {
+  text-align: center;
+  align-items: center;
+  padding-block-end: 40px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    align-items: center;
+  }
+  .description-text {
+    display: flex;
+    max-inline-size: 900px;
+    justify-content: center;
+    text-align: center;
+  }
+}
